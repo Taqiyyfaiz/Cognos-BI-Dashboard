@@ -3,7 +3,7 @@
     font-family: 'Poppins';
     src: url('Fonts/Poppins/Poppins-Regular.ttf') format('woff2'),
         url('Fonts/Poppins/Poppins-Bold.ttf') format('woff'),
-        url('Fonts/Poppins/Poppins-ExtraLight') format('woff');
+        url('Fonts/Poppins/Poppins-ExtraLight.ttf') format('woff');
 }
 
 * {
@@ -21,7 +21,6 @@ body {
     background-color: #fafafa;
     color: #333;
     background-color: #EEEEEE;
-
 }
 
 .image-container {
@@ -33,7 +32,7 @@ header {
     color: #ffffff;
     padding: 1rem 0;
     text-align: center;
-    }
+}
 
 nav {
     background-color: #ffffff;
@@ -83,9 +82,9 @@ main {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    /* background-color: #faf8f6; */
     text-align: left;
 }
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -102,9 +101,11 @@ main {
 .btn:hover {
     background-color: #d43b30; /* Darker shade of red for hover effect */
 }
+
 .container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -157,7 +158,8 @@ main {
     padding: 50px 0;
     background-color: #EEEEEE;
 }
-.dashboard p{
+
+.dashboard p {
     text-align: left;
     font-size: 1.2em;
     line-height: 1.5;
@@ -171,7 +173,7 @@ main {
 
 .dashboard iframe {
     width: 100%;
-    height: 110vh; 
+    height: 110vh;
     border: 0;
 }
 
@@ -186,15 +188,68 @@ footer {
 }
 
 /* Responsive design */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .image img {
+        max-width: 80%;
+    }
+
+    .dashboard iframe {
+        height: 90vh;
+    }
+}
+
 @media (max-width: 768px) {
     .dashboard iframe {
         height: 60vh;
+    }
+
+    #home-section {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .content h1 {
+        font-size: 2.5em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
     }
 }
 
 @media (max-width: 480px) {
     .dashboard iframe {
         height: 40vh;
+    }
+
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
     }
 }
 
@@ -232,4 +287,3 @@ footer {
 #contact-section ul li a:hover {
     text-decoration: underline;
 }
-
