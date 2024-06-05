@@ -14,6 +14,10 @@ I'm a Software Engineer to Build a Scalable Applications...
 ## Introduction
 Welcome to the Retail Merchandising Analysis Dashboard! This project aims to provide retail businesses with a comprehensive tool for analyzing various aspects of their operations. By leveraging data analytics and visualization, the dashboard helps businesses optimize their performance and make informed decisions.
 ## Screenshots
+![Screenshot 2024-05-31 182829](https://github.com/Taqiyyfaiz/Cognos-BI-Dashboard/assets/113523139/37190c27-efbb-42a5-a606-78d0d29d3f31)
+![Screenshot 2024-05-28 092206](https://github.com/Taqiyyfaiz/Cognos-BI-Dashboard/assets/113523139/08a29143-efb3-4836-9436-234726fdf9ff)
+![Screenshot 2024-05-28 092240](https://github.com/Taqiyyfaiz/Cognos-BI-Dashboard/assets/113523139/96ec82e1-2b65-4fba-a853-52a469bca9f9)
+![Screenshot 2024-05-28 092751](https://github.com/Taqiyyfaiz/Cognos-BI-Dashboard/assets/113523139/bba6d0d4-5854-4dfd-938f-312cb229e7fd)
 
 
 ## Table of Contents
